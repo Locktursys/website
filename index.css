@@ -24,7 +24,7 @@
 }
 
 .hero{
-    background-image: url('/hero.jpg');
+    background-image: url('https://danielkormos1993.github.io/zoli/hero.jpg');
     background-size: cover;
     background-position:center center;
     color: white;
@@ -69,7 +69,7 @@ h2:after{
 }
 
 .aboutus{
-    background-image: url('/aboutus.jpg');
+    background-image: url('https://danielkormos1993.github.io/zoli/aboutus.jpg');
     background-size: cover;
     background-position:center center;
 }
