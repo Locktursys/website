@@ -1,0 +1,44 @@
+﻿body{
+    --bs-font-sans-serif: 'Roboto', sans-serif;
+}
+
+.navbar{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.call-button{
+    border-radius: 50px;
+}
+
+
+.nav-link{
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.navbar-nav > li{
+    margin-left:8px;
+    margin-right:8px;
+}
+
+.hero{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url('/hero.jpg');
+    background-size: cover;
+    background-position:center center;
+    color: white;
+}
+
+.hero h1{
+    font-weight: bold;
+}
+
+.btn{
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    font-size: .9rem;
+}
