@@ -24,8 +24,6 @@
 }
 
 .hero{
-    padding-top: 80px;
-    padding-bottom: 80px;
     background-image: url('/hero.jpg');
     background-size: cover;
     background-position:center center;
@@ -41,4 +39,48 @@
     text-transform: uppercase;
     padding: 0.5rem 1rem;
     font-size: .9rem;
+}
+
+body > div{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+h2{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+h2:after{
+    content: '';
+    display: block;
+    margin-top: 20px;
+    width: 30px;
+    height: 3px;
+    background-color: #007bff;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.card-text{
+    color: #ccc;
+}
+
+.aboutus{
+    background-image: url('/aboutus.jpg');
+    background-size: cover;
+    background-position:center center;
+}
+
+.bg-secondary{
+    background-color:#393e44!important;
+}
+
+.footer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #ccc;
 }
