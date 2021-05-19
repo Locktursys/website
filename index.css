@@ -84,3 +84,16 @@ h2:after{
     text-align: center;
     color: #ccc;
 }
+
+p{
+    max-width: 800px;
+}
+
+.col{
+    flex-basis: auto;
+}
+
+.works a{
+    text-decoration: none;
+    color: inherit;
+}
