@@ -1,0 +1,32 @@
+﻿<div class="works section" id="munkaink">
+    <div class="container">
+        <h2 class="mb-4">Munkáink</h2>
+        <div class="grid" id="gallery">
+            <% for(i=1; i<=19; i++) { %>
+            <a href="media/works/<%= i %>.jpg">
+                <img alt="munkánk">
+            </a>
+           <% } %>
+        </div>
+    </div>
+</div>
+<script src="https://danielkormos1993.github.io/zoli/plugins/lightbox/simple-lightbox.min.js"></script> 
+<script defer>
+
+    let ImageIntersectionHandler = new IntersectionObserver(function(entries){
+        entries.forEach(function(entry) {
+            if(entry.isIntersecting){
+                entry.target.loadImage();
+                ImageIntersectionHandler.unobserve(entry.target);
+            }
+        });
+    }, {rootMargin: "0px 0px 250px 0px"});
+
+    [...document.querySelectorAll('#gallery a')].map(a => {
+        a.loadImage = () => a.querySelector('img').src = a.getAttribute('href');
+        ImageIntersectionHandler.observe(a);
+    });
+
+    new SimpleLightbox('#gallery a', { /* options */ });
+
+</script>

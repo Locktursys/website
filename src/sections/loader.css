@@ -1,0 +1,44 @@
+﻿body{
+    position: relative;
+    overflow:hidden;
+    height: 100vh;
+}
+
+body.loader-disabled{
+    overflow: visible;
+    height: auto;
+}
+
+.loader{
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2D2926;
+    z-index:100000;
+}
+
+body.loader-disabled .loader {
+    animation: LoaderAnimation 1s forwards;
+}
+
+.loader video{
+    max-width:300px;
+    height:auto;
+}
+
+@keyframes LoaderAnimation {
+    0% { 
+        visibility: visible; 
+        opacity: 1;
+    }
+
+    100% {
+        visibility: hidden;
+        opacity: 0;
+    }
+}

@@ -1,0 +1,11 @@
+﻿.aboutus{
+    background-color: unset;
+    background: url('media/aboutusbg.jpg') rgba(0,0,0,.72);
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.aboutus .container *{
+    max-width: 800px;
+}

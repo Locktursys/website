@@ -1,244 +1,274 @@
-﻿<!doctype html>
+<!DOCTYPE html>
 <html lang="hu">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <!-- PHOTOSWIPE PLUGIN FILES -->
-    <link rel="stylesheet" href="https://danielkormos1993.github.io/zoli/plugins/lightbox/simple-lightbox.min.css">
-    <!-- PHOTOSWIPE PLUGIN FILES END -->
-    <link href="index.css" rel="stylesheet">
-    <title>{{title}}</title>
-    <link rel="preload" href="https://danielkormos1993.github.io/zoli/media/logo-animation.gif" as="image">
-  </head>
-  <body>
-    <div class="loader">
-        <img src="https://danielkormos1993.github.io/zoli/media/logo-animation.gif" alt="logo animáció">
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="https://danielkormos1993.github.io/zoli/media/logo.png"  class="logo" alt="logo">
-              </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#szolgaltatasaink">Szolgáltatásaink</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#munkaink">Munkáink</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#rolunk">Rólunk</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#kapcsolat">Kapcsolat</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="jumbotron hero">
-        <div class="container">
-            <h1 class="display-4">Egyedi gép és célgép gyártás</h1>
-            <hr class="my-4" style="max-width:800px">
-            <p class="lead">Vezérléstechnika nélkül ipari társadalmunk elképzelhetetlen lenne, lehetetlen lenne elérni a jelenlegi műszaki színvonalat. Vállalkozásunk, ennek megfelelően a megrendelő igényeit figyelembe véve (tervezéstől-átadásig) a legkülönbözőbb (pneumatikus, hidraulikus, villamos, elektronikus) szakemberekkel működik együtt.</p>
-            <a href="tel:+36303102441" class="btn btn-success call-button"><i class="bi bi-telephone-fill" style="margin-right:5px"></i> +36 30 310 2441</a>
-        </div>
-    </div>
-    <div class="services text-white bg-secondary">
-        <div class="container">
-            <h2 class="mb-4">Szolgáltatásaink</h2>
-            <div class="row g-4">
-                <div class="col col-sm col-md-6 col-lg-6 col-xl-6 col-xxl-3 d-flex align-items-stretch">
-                    <div class="card bg-dark">
-                        <img class="card-img-top" src="https://danielkormos1993.github.io/zoli/hero.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h3 class="card-title">Egyedi gép és célgép</h3>
-                            <div>
-                                <i class="bi bi-chevron-right"></i><span>Gyártása</span>
-                            </div>
-                            <div>
-                                <i class="bi bi-chevron-right"></i><span>Javítása</span>
-                            </div>
-                            <div>
-                                <i class="bi bi-chevron-right"></i><span>Kiépítése</span>
-                            </div>
-                            <div>
-                                <i class="bi bi-chevron-right"></i><span>Átalakítása</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-sm col-md-6 col-lg-6 col-xl-6 col-xxl-3 d-flex align-items-stretch">
-                    <div class="card bg-dark">
-                        <img class="card-img-top" src="https://danielkormos1993.github.io/zoli/hero.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h3 class="card-title">Elektropneumatikus rendszerek, BUS rendszerek</h3>
-                            <div>
-                                <i class="bi bi-chevron-right"></i><span>Kiépítése</span>
-                            </div>
-                            <div>
-                                <i class="bi bi-chevron-right"></i><span>Átalakítása</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-sm col-md-6 col-lg-6 col-xl-6 col-xxl-3 d-flex align-items-stretch">
-                    <div class="card bg-dark">
-                        <img class="card-img-top" src="https://danielkormos1993.github.io/zoli/hero.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h3 class="card-title">Hidraulikus rendszerek</h3>
-                            <div>
-                                <i class="bi bi-chevron-right"></i><span>Építése</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-sm col-md-6 col-lg-6 col-xl-6 col-xxl-3 d-flex align-items-stretch">
-                    <div class="card bg-dark">
-                        <img class="card-img-top" src="https://danielkormos1993.github.io/zoli/hero.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h3 class="card-title">Alumínium profil rendszerek</h3>
-                            <div>
-                                <i class="bi bi-chevron-right"></i><span>Építése (BOSCH, ITEM)</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="works text-white bg-dark">
-        <div class="container">
-            <h2 class="mb-4">Munkáink</h2>
-            <div class="grid" id="gallery">
-                <a href="https://danielkormos1993.github.io/zoli/media/works/1.jpg">
-                    <img src="https://danielkormos1993.github.io/zoli/media/works/1.jpg" alt="munkánk">
-                </a>
-                <a href="https://danielkormos1993.github.io/zoli/media/works/2.jpg">
-                    <img src="https://danielkormos1993.github.io/zoli/media/works/2.jpg" alt="munkánk">
-                </a>
-                <a href="https://danielkormos1993.github.io/zoli/media/works/3.jpg">
-                    <img src="https://danielkormos1993.github.io/zoli/media/works/3.jpg" alt="munkánk">
-                </a>
-                <a href="https://danielkormos1993.github.io/zoli/media/works/4.jpg">
-                    <img src="https://danielkormos1993.github.io/zoli/media/works/4.jpg" alt="munkánk">
-                </a>
-                <a href="https://danielkormos1993.github.io/zoli/media/works/5.jpg">
-                    <img src="https://danielkormos1993.github.io/zoli/media/works/5.jpg" alt="munkánk">
-                </a>
-                <a href="https://danielkormos1993.github.io/zoli/media/works/6.jpg">
-                    <img src="https://danielkormos1993.github.io/zoli/media/works/6.jpg" alt="munkánk">
-                </a>
-                <a href="https://danielkormos1993.github.io/zoli/media/works/7.jpg">
-                    <img src="https://danielkormos1993.github.io/zoli/media/works/7.jpg" alt="munkánk">
-                </a>
-                <a href="https://danielkormos1993.github.io/zoli/media/works/8.jpg">
-                    <img src="https://danielkormos1993.github.io/zoli/media/works/8.jpg" alt="munkánk">
-                </a>
-                <a href="https://danielkormos1993.github.io/zoli/media/works/9.jpg">
-                    <img src="https://danielkormos1993.github.io/zoli/media/works/9.jpg" alt="munkánk">
-                </a>
-                <a href="https://danielkormos1993.github.io/zoli/media/works/10.jpg">
-                    <img src="https://danielkormos1993.github.io/zoli/media/works/10.jpg" alt="munkánk">
-                </a>
-                <a href="https://danielkormos1993.github.io/zoli/media/works/11.jpg">
-                    <img src="https://danielkormos1993.github.io/zoli/media/works/11.jpg" alt="munkánk">
-                </a>
-                <a href="https://danielkormos1993.github.io/zoli/media/works/12.jpg">
-                    <img src="https://danielkormos1993.github.io/zoli/media/works/12.jpg" alt="munkánk">
-                </a>
-                <a href="https://danielkormos1993.github.io/zoli/media/works/13.jpg">
-                    <img src="https://danielkormos1993.github.io/zoli/media/works/13.jpg" alt="munkánk">
-                </a>
-                <a href="https://danielkormos1993.github.io/zoli/media/works/14.jpg">
-                    <img src="https://danielkormos1993.github.io/zoli/media/works/14.jpg" alt="munkánk">
-                </a>
-                <a href="https://danielkormos1993.github.io/zoli/media/works/15.jpg">
-                    <img src="https://danielkormos1993.github.io/zoli/media/works/15.jpg" alt="munkánk">
-                </a>
-                <a href="https://danielkormos1993.github.io/zoli/media/works/16.jpg">
-                    <img src="https://danielkormos1993.github.io/zoli/media/works/16.jpg" alt="munkánk">
-                </a>
-                <a href="https://danielkormos1993.github.io/zoli/media/works/17.jpg">
-                    <img src="https://danielkormos1993.github.io/zoli/media/works/17.jpg" alt="munkánk">
-                </a>
-                <a href="https://danielkormos1993.github.io/zoli/media/works/18.jpg">
-                    <img src="https://danielkormos1993.github.io/zoli/media/works/18.jpg" alt="munkánk">
-                </a>
-                <a href="https://danielkormos1993.github.io/zoli/media/works/19.jpg">
-                    <img src="https://danielkormos1993.github.io/zoli/media/works/19.jpg" alt="munkánk">
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="aboutus text-white bg-secondary">
-        <div class="container">
-            <h2 class="mb-4">Rólunk</h2>
-            <p>Cégünk lételeme a folyamatos fejlődés, a kreativitás, és a csapatmunka. Törekszünk a maximális minőségre. Többéves kapcsolatainknak köszönhetően gépészmérnökök, programozók állnak rendelkezésünkre. </p>
-        </div>
-    </div>
-    <div class="contact text-white bg-dark">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col col-sm col-md col-lg-6">
-                    <h2 class="mb-4">Kapcsolat</h2>
-                    <div class="contact__box mb-3">
-                        <i class="bi bi-geo-alt-fill text-primary"></i>
-                        <span class="px-2">9011 Győr</span>
-                    </div>
-                    <div class="contact__box mb-3">
-                        <i class="bi bi-telephone-fill text-primary"></i>
-                        <span  class="px-2">+36 30 310 2441</span>
-                    </div>
-                    <div class="contact__box mb-3">
-                        <i class="bi bi-envelope-fill text-primary"></i>
-                        <span  class="px-2">Emailcim@emailcim.hu</span>
-                    </div>
-                    <div class="contact__box mb-3">
-                        <i class="bi bi-clock-fill text-primary"></i>
-                        <span  class="px-2">Hétfő - Péntek, 8:00 - 17:00</span>
-                    </div>
-                </div>
-                <div class="col col-sm col-md col-lg-6">
-                    <h2 class="mb-4">Szolgáltatási terület</h2>
-                    <div class="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1389063.6425128079!2d18.383948747856103!3d47.15756207552187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741837bdf37e4c3%3A0xc4290c1e1010!2sMagyarorsz%C3%A1g!5e0!3m2!1shu!2shu!4v1621430589745!5m2!1shu!2shu" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer bg-secondary">
-        <div class="container">
-            <span>2021 © LOCKTURSYS KFT.</span>
-        </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+<head>
+    <!-- google analytics here later -->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Egyedi gép és célgép gyártás - LOCKTURSYS KFT.</title>
+<meta name="description" content="Vállalkozásunk a megrendelő igényeit figyelembe véve (tervezéstől-átadásig), a legkülönbözőbb (pneumatikus, hidraulikus, villamos, elektronikus) szakemberekkel működik együtt.">
+<meta name="keywords" content="egyedi gépgyártás, célgép gyártás, elektropneumatikus rendszerek, BUS rendszerek, hidraulikus rendszerek">
+<!-- canonical meta here -->
+<!-- fb share metas here -->
+<!-- favicon here -->
+<!-- bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+<!-- bootstrap icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+<!-- google font Roboto -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<!-- gallery plugin css -->
+<link rel="stylesheet" href="plugins/lightbox/simple-lightbox.min.css">
+<!-- global style -->
+<link rel="stylesheet" href="index.css">
+</head>
+<body class="text-light">
     <script>
+    const disableLoader = () => document.body.classList.add('loader-disabled');
+</script>
+<div class="loader">
+    <video src="media/logo-animation.mp4" autoplay playsinline muted preload="auto" onended="disableLoader()"></video>
+</div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="media/logo.png"  class="logo-img" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menü nyitása">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#szolgaltatasaink">Szolgáltatásaink</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#munkaink">Munkáink</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#rolunk">Rólunk</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#kapcsolat">Kapcsolat</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <div class="jumbotron hero section">
+    <div class="container">
+        <h1 class="display-4">Egyedi gép és célgép gyártás</h1>
+        <hr class="my-4">
+        <p class="lead">Vezérléstechnika nélkül ipari társadalmunk elképzelhetetlen lenne, lehetetlen lenne elérni a jelenlegi műszaki színvonalat. Vállalkozásunk, ennek megfelelően a megrendelő igényeit figyelembe véve (tervezéstől-átadásig) a legkülönbözőbb (pneumatikus, hidraulikus, villamos, elektronikus) szakemberekkel működik együtt.</p>
+        <a href="tel:+36303102441" class="btn btn-success call-button"><i class="bi bi-telephone-fill" style="margin-right:5px"></i> +36 30 310 2441</a>
+    </div>
+</div>
+    <div class="services section" id="szolgaltatasaink">
+    <div class="container">
+        <h2 class="mb-4">Szolgáltatásaink</h2>
+        <div class="row g-4">
+            <div class="col col-sm-12 col-md-6 col-xxl-3 d-flex align-items-stretch">
+                <div class="card bg-dark">
+                    <img class="card-img-top" src="media/services/gep.jpg" alt="Egyedi gép és célgép kép">
+                    <div class="card-body">
+                        <h3 class="card-title">Egyedi gép és célgép</h3>
+                        <div>
+                            <i class="bi bi-chevron-right"></i><span>Gyártása</span>
+                        </div>
+                        <div>
+                            <i class="bi bi-chevron-right"></i><span>Javítása</span>
+                        </div>
+                        <div>
+                            <i class="bi bi-chevron-right"></i><span>Kiépítése</span>
+                        </div>
+                        <div>
+                            <i class="bi bi-chevron-right"></i><span>Átalakítása</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-sm-12 col-md-6 col-xxl-3 d-flex align-items-stretch">
+                <div class="card bg-dark">
+                    <img class="card-img-top" src="media/services/elektropneumatikus.jpg" alt="Elektropneumatikus rendszerek, BUS rendszerek kép">
+                    <div class="card-body">
+                        <h3 class="card-title">Elektropneumatikus rendszerek, BUS rendszerek</h3>
+                        <div>
+                            <i class="bi bi-chevron-right"></i><span>Kiépítése</span>
+                        </div>
+                        <div>
+                            <i class="bi bi-chevron-right"></i><span>Átalakítása</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-sm-12 col-md-6 col-xxl-3 d-flex align-items-stretch">
+                <div class="card bg-dark">
+                    <img class="card-img-top" src="media/services/hidraulikus.jpg" alt="Hidraulikus rendszerek kép">
+                    <div class="card-body">
+                        <h3 class="card-title">Hidraulikus rendszerek</h3>
+                        <div>
+                            <i class="bi bi-chevron-right"></i><span>Építése</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-sm-12 col-md-6 col-xxl-3 d-flex align-items-stretch">
+                <div class="card bg-dark">
+                    <img class="card-img-top" src="media/services/profil.jpg" alt="Alumínium profil rendszerek kép">
+                    <div class="card-body">
+                        <h3 class="card-title">Alumínium profil rendszerek</h3>
+                        <div>
+                            <i class="bi bi-chevron-right"></i><span>Építése (BOSCH, ITEM)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="works section" id="munkaink">
+    <div class="container">
+        <h2 class="mb-4">Munkáink</h2>
+        <div class="grid" id="gallery">
+            
+            <a href="media/works/1.jpg">
+                <img alt="munkánk">
+            </a>
+           
+            <a href="media/works/2.jpg">
+                <img alt="munkánk">
+            </a>
+           
+            <a href="media/works/3.jpg">
+                <img alt="munkánk">
+            </a>
+           
+            <a href="media/works/4.jpg">
+                <img alt="munkánk">
+            </a>
+           
+            <a href="media/works/5.jpg">
+                <img alt="munkánk">
+            </a>
+           
+            <a href="media/works/6.jpg">
+                <img alt="munkánk">
+            </a>
+           
+            <a href="media/works/7.jpg">
+                <img alt="munkánk">
+            </a>
+           
+            <a href="media/works/8.jpg">
+                <img alt="munkánk">
+            </a>
+           
+            <a href="media/works/9.jpg">
+                <img alt="munkánk">
+            </a>
+           
+            <a href="media/works/10.jpg">
+                <img alt="munkánk">
+            </a>
+           
+            <a href="media/works/11.jpg">
+                <img alt="munkánk">
+            </a>
+           
+            <a href="media/works/12.jpg">
+                <img alt="munkánk">
+            </a>
+           
+            <a href="media/works/13.jpg">
+                <img alt="munkánk">
+            </a>
+           
+            <a href="media/works/14.jpg">
+                <img alt="munkánk">
+            </a>
+           
+            <a href="media/works/15.jpg">
+                <img alt="munkánk">
+            </a>
+           
+            <a href="media/works/16.jpg">
+                <img alt="munkánk">
+            </a>
+           
+            <a href="media/works/17.jpg">
+                <img alt="munkánk">
+            </a>
+           
+            <a href="media/works/18.jpg">
+                <img alt="munkánk">
+            </a>
+           
+            <a href="media/works/19.jpg">
+                <img alt="munkánk">
+            </a>
+           
+        </div>
+    </div>
+</div>
+<script src="https://danielkormos1993.github.io/zoli/plugins/lightbox/simple-lightbox.min.js"></script> 
+<script defer>
 
-        setTimeout( function(){
+    let ImageIntersectionHandler = new IntersectionObserver(function(entries){
+        entries.forEach(function(entry) {
+            if(entry.isIntersecting){
+                entry.target.loadImage();
+                ImageIntersectionHandler.unobserve(entry.target);
+            }
+        });
+    }, {rootMargin: "0px 0px 250px 0px"});
 
-            document.body.style.overflow = 'visible';
-            document.querySelector('.loader').classList.add('disabled');
+    [...document.querySelectorAll('#gallery a')].map(a => {
+        a.loadImage = () => a.querySelector('img').src = a.getAttribute('href');
+        ImageIntersectionHandler.observe(a);
+    });
 
-        }, 5000);
+    new SimpleLightbox('#gallery a', { /* options */ });
 
-    </script>
-    <script src="https://danielkormos1993.github.io/zoli/plugins/lightbox/simple-lightbox.min.js"></script> 
-    <script defer>
-
-        new SimpleLightbox('#gallery a', { /* options */ });
-
-    </script>
-  </body>
+</script>
+    <div class="aboutus section" id="rolunk">
+    <div class="container">
+        <h2 class="mb-4">Rólunk</h2>
+        <p>Cégünk lételeme a folyamatos fejlődés, a kreativitás, és a csapatmunka. Törekszünk a maximális minőségre. Többéves kapcsolatainknak köszönhetően gépészmérnökök, programozók állnak rendelkezésünkre.</p>
+    </div>
+</div>
+    <div class="contact section" id="kapcsolat">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col col-sm-12 col-md-6">
+                <h2 class="mb-4">Kapcsolat</h2>
+                <a href="tel:+36 30 310 2441" class="contact__box mb-3 important">
+                    <i class="bi bi-telephone-fill text-primary"></i>
+                    <span  class="px-2">+36 30 310 2441</span>
+                </a>
+                <a href="mailto:locktursyskft@gmail.com" class="contact__box mb-3">
+                    <i class="bi bi-envelope-fill text-primary"></i>
+                    <span  class="px-2">locktursyskft@gmail.com</span>
+                </a>
+                <div class="contact__box mb-3">
+                    <i class="bi bi-geo-alt-fill text-primary"></i>
+                    <span class="px-2">9011 Győr</span>
+                </div>
+            </div>
+            <div class="col col-sm-12 col-md-6">
+                <h2 class="mb-4">Szolgáltatási terület</h2>
+                <div class="map">
+                    <iframe title="szolgáltatási terület" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1389063.6425128079!2d18.383948747856103!3d47.15756207552187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741837bdf37e4c3%3A0xc4290c1e1010!2sMagyarorsz%C3%A1g!5e0!3m2!1shu!2shu!4v1621430589745!5m2!1shu!2shu" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="footer bg-dark">
+    <div class="container">
+        <span>2021 © LOCKTURSYS KFT.</span>
+    </div>
+</div>
+</body>
 </html>

@@ -1,0 +1,25 @@
+﻿.navbar{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navbar-nav{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.nav-item{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.nav-link{
+    font-weight: bold;
+    font-size: 1rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+}
+
+.logo-img{
+    width: 140px;
+}

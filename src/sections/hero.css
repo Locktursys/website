@@ -1,0 +1,16 @@
+﻿.hero{
+    background-color: unset;
+    background: url('media/herobg.jpg') rgba(0,0,0,.72);
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.hero .container *{
+    max-width: 800px;
+}
+
+.hero h1{
+    font-weight: bold;
+}
+
